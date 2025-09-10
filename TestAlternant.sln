@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34018.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestAlternant", "TestAlternant\TestAlternant.csproj", "{584218D5-B16E-42DD-846F-EAB4E44961FF}"
+	ProjectSection(ProjectDependencies) = postProject
+		{89F476DA-8785-4CA2-A772-DF62C108BB74} = {89F476DA-8785-4CA2-A772-DF62C108BB74}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S-InterModels", "S-InterModels\S-InterModels.csproj", "{89F476DA-8785-4CA2-A772-DF62C108BB74}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{584218D5-B16E-42DD-846F-EAB4E44961FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{584218D5-B16E-42DD-846F-EAB4E44961FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{584218D5-B16E-42DD-846F-EAB4E44961FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{584218D5-B16E-42DD-846F-EAB4E44961FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89F476DA-8785-4CA2-A772-DF62C108BB74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89F476DA-8785-4CA2-A772-DF62C108BB74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89F476DA-8785-4CA2-A772-DF62C108BB74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89F476DA-8785-4CA2-A772-DF62C108BB74}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D80615FD-B028-4713-BADD-D296F82AD645}
+	EndGlobalSection
+EndGlobal
